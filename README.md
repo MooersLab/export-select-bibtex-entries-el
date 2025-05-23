@@ -1,7 +1,7 @@
 ![Version](https://img.shields.io/static/v1?label=export-select-bibtex-entries&message=0.1&color=brightcolor)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-# Export selected BibTeX entries from a master BibTeX to a second BibTeX file fron inside Emacs
+# Export selected BibTeX entries from a master BibTeX to a second BibTeX file from inside Emacs
 
 ## Problem addressed
 
@@ -18,7 +18,11 @@ You will be prompted to select which logic term you want to use.
 You will be prompted for the name and path of the exported BibTeX file.
 The number of exported entries will be reported in the mini buffer as a message.
 
+## Installation
 
+You can test out this file by opening it up in an Emacs new buffer and then evaluating the buffer: `M-x eval-buffer`.
+
+You can install this file using the straight package or any other approach to installing locally installed packages.
 
 
 ## Update history
