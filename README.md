@@ -5,9 +5,9 @@
 
 ## Problem addressed
 
-If you maintain a master or global BibTeX file of all your BibTeX entries, this file may be too large to load into an LLM if it has 600-800 or more entries.
+If you maintain a master or global BibTeX file of all your BibTeX entries, it may be too large to load into an LLM if it has 600-800 or more entries.
 It will exceed the LLM's context limits.
-This Emacs package enables the exporting of subsets of debt tech entries that are selected by keywords.
+This Emacs package enables the exporting of subsets of BibTeX entries that are selected by keywords.
 
 ## Usage
 If there are multiple keywords, they are separated by semicolons.
