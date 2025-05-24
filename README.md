@@ -114,7 +114,7 @@ Keywords: machine learning; neural networks
 Fields: title, abstract, keywords
 Logic: OR
 Output: ~/research/ml-references.bib
-Result: 247 entries exported
+Result: 2222 entries exported
 ```
 ## Configuration
 
