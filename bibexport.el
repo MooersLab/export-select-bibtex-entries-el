@@ -8,7 +8,7 @@
 ;; Version: 0.1
 ;; Keywords: 
 ;; License: MIT
-;; Updated 2025 May 23
+;; Updated 2025 May 24
 
 ;;; This package is known to work (insofar as it's tested) with Emacs 30.1.
 
@@ -83,7 +83,7 @@ EXPORT-FILE: Destination file."
 
 ;; Usage:
 ;; - Set `bibexport-bibtex-master-file`
-;; - Run via M-x my/export-bibtex-entries-by-multikeywords
+;; - Run via M-x bibexport-export-bibtex-entries-by-multikeywords
 ;; - Supply multi-word phrases (semicolon-separated), select AND/OR, choose search fields, and export file
 
 (provide 'bibexport)
