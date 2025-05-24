@@ -88,19 +88,19 @@ Add to your `init.el` file or evaluate the function in your scratch buffer for a
 Inspired https://sachachua.com/dotemacs/index.html#org4dd39d0.
 
 ```elisp
-(defun exportbib-functions-load ()  
-  "Load exportbib.el file."  
+(defun bibexport-functions-load ()  
+  "Load bibexport.el file."  
   (interactive)  
   (let ((file-path "~/6112MooersLabGitHubLabRepos/export-select-bibtex-entries-el/exportbib.el"))  
     (if (file-exists-p (expand-file-name file-path))  
         (load-file file-path)  
-      (message "Cannot find exportbib.el file"))))
+      (message "Cannot find bibexport.el file"))))
 ```
 
 ## Usage Workflow
 
 ### Basic Operation Steps
-1. Launch the selection interface: =M-x export-select-bibtex-entries=
+1. Launch the selection interface: `M-x bibexport-export-select-bibtex-entries`
 2. Specify your search keywords (separate multiple terms with semicolons)
 3. Configure field targeting options (title, author, year, keywords, etc.)
 4. Select Boolean logic for multi-keyword searches (AND/OR operations)
@@ -116,6 +116,10 @@ Logic: OR
 Output: ~/research/ml-references.bib
 Result: 247 entries exported
 ```
+## Configuration
+
+- You can set the path to the master BibTeX file.
+- You can change the BibTeX fields to be searched.
 
 ## Advanced Features
 
@@ -152,7 +156,7 @@ We encourage community contributions to enhance this tool's functionality:
 |Version      | Changes                                                                                                                                                                         | Date                 |
 |:-----------|:------------------------------------------------------------------------------------------------------------------------------------------|:--------------------|
 | Version 0.1 |   Added badges, funding, and update table.  Initial commit.                                                                                                                | 05/23/2025  |
-| Version 0.1.1 | Corrected a minor minor bug. Updated README.md.                                                                                                                            |05/24/2025 |
+| Version 0.1.1 | Corrected a minor bug. Updated README.md.                                                                                                                            |05/24/2025 |
 
 ## Sources of funding
 - NIH: R01 CA242845
