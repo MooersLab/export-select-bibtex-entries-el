@@ -91,7 +91,7 @@ Inspired https://sachachua.com/dotemacs/index.html#org4dd39d0.
 (defun bibexport-functions-load ()  
   "Load bibexport.el file."  
   (interactive)  
-  (let ((file-path "~/6112MooersLabGitHubLabRepos/export-select-bibtex-entries-el/exportbib.el"))  
+  (let ((file-path "~/6112MooersLabGitHubLabRepos/export-select-bibtex-entries-el/bibexport.el"))  
     (if (file-exists-p (expand-file-name file-path))  
         (load-file file-path)  
       (message "Cannot find bibexport.el file"))))
