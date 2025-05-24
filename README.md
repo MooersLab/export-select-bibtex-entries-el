@@ -152,8 +152,11 @@ We encourage community contributions to enhance this tool's functionality:
 
 ## AI use disclosure
 
-The code in bibexport.el was developed iteratively with the help of Claude Sonnet 4.0.
+The code in `bibexport.el` was developed iteratively with the help of Claude Sonnet 4.0.
 The code was tested in Emacs 30.1.
+
+## Status
+The function works as advertised when installed with straight.
 
 
 ## Update history
