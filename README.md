@@ -29,6 +29,8 @@ You can install this file using the straight package or any other approach to in
 |Version      | Changes                                                                                                                                                                         | Date                 |
 |:-----------|:------------------------------------------------------------------------------------------------------------------------------------------|:--------------------|
 | Version 0.1 |   Added badges, funding, and update table.  Initial commit.                                                                                                                | 05/23/2025  |
+| Version 0.1.1 | Corrected a minor minor bug. Updated README.md.                                                                                                                            |05/24/2025 |
+
 ## Sources of funding
 - NIH: R01 CA242845
 - NIH: R01 AI088011
