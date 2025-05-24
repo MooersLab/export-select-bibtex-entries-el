@@ -1,14 +1,14 @@
 ![Version](https://img.shields.io/static/v1?label=export-select-bibtex-entries&message=0.1.1&color=brightcolor)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-# Export Select BibTeX Entries From Inside Emacs
+# Export Select BibTeX Entries From Minibuffer Inside Emacs
 
 ## Problem addressed
 
 If you maintain a master or global BibTeX file of all your BibTeX entries, it may be too large to load into an LLM if it has 600-800 or more entries.
 It will exceed the LLM's context limits.
 This Emacs package enables the exporting of subsets of BibTeX entries that are selected by keywords.
-I find this faster to do from inside Emacs than with a GUI-driven interface to your master BibTeX file.
+I find this faster inside Emacs than with a GUI-driven interface to your master BibTeX file like JabRef.
 
 
 ## Overview
@@ -150,6 +150,10 @@ We encourage community contributions to enhance this tool's functionality:
 ### Feature Requests and Issues
 - Open an issue under the Issues tab for technical problems or feature suggestions
 
+## AI use disclosure
+
+The code in bibexport.el was developed iteratively with the help of Claude Sonnet 4.0.
+The code was tested in Emacs 30.1.
 
 
 ## Update history
