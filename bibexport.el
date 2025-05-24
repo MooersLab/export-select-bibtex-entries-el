@@ -5,7 +5,7 @@
 ;; Author: blaine-mooers@ouhsc.edu
 ;; Maintainer: blaine-mooers@ouhsc.edu
 ;; URL: https://github.com/MooersLab/export-select-bibtex-entries-el
-;; Version: 0.1
+;; Version: 0.1.1
 ;; Keywords: 
 ;; License: MIT
 ;; Updated 2025 May 24
