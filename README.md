@@ -62,7 +62,7 @@ M-x eval-buffer
 You should see one interactive function. Select it and answer the series of prompts for information.
 
 ```emacs-lisp
-exportbib-export-bibtex-entries-by-multikeywords
+bibexport-export-bibtex-entries-by-multikeywords
 ```
 
 ## Install with the `use-package` and `straight` packages
@@ -81,7 +81,7 @@ You have to run `straight-pull-all` to pull any updates.
 The functions will always be available.
 
 
-## Install of manually downloaded package
+## Installation of manually downloaded package
 
 Edit the paths of this function to suit.
 Add to your `init.el` file or evaluate the function in your scratch buffer for a quick start.
@@ -100,7 +100,7 @@ Inspired https://sachachua.com/dotemacs/index.html#org4dd39d0.
 ## Usage Workflow
 
 ### Basic Operation Steps
-1. Launch the selection interface: `M-x bibexport-export-select-bibtex-entries`
+1. Launch the selection interface: `M-x bibexport-export-bibtex-entries-by-multikeywords`
 2. Specify your search keywords (separate multiple terms with semicolons)
 3. Configure field targeting options (title, author, year, keywords, etc.)
 4. Select Boolean logic for multi-keyword searches (AND/OR operations)
