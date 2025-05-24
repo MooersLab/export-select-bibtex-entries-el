@@ -1,4 +1,4 @@
-;;; bibexport.el --- A collection of functions to export a subset of bibtex entries.
+;;; bibexport.el --- A collection of functions to export a subset of BibTeX entries.
 
 ;; Copyright (C) 2025 Blaine Mooers and the University of Oklahoma Health Sciences Center Board of Regents
 
@@ -41,10 +41,10 @@ EXPORT-FILE: Destination file."
     (read-string "Keyword phrase(s) to search (separate by semicolon ';'): ")
     (intern (completing-read "Search type (AND/OR): " '("and" "or") nil t "or"))
     (completing-read "Search fields (comma-separated) or 'all': "
-                     (cons "all" my/bibtex-search-fields) nil t "all")
+                     (cons "all" bibexport-bibtex-search-fields) nil t "all")
     (read-file-name "Export to bib file: ")))
-  (unless (file-exists-p my/bibtex-master-file)
-    (error "Master bib file '%s' does not exist" my/bibtex-master-file))
+  (unless (file-exists-p bibexport-bibtex-master-file)
+    (error "Master bib file '%s' does not exist" bibexport-bibtex-master-file))
   (let* ((phrase-list (mapcar #'string-trim
                               (split-string keywords ";" t "[ \t\n\r]+")))
          (case-fold-search t)
@@ -52,7 +52,7 @@ EXPORT-FILE: Destination file."
                            '("") ; Search full entry
                          (split-string search-fields "," t "[ \t]+"))))
     (with-temp-buffer
-      (insert-file-contents my/bibtex-master-file)
+      (insert-file-contents bibexport-bibtex-master-file)
       (goto-char (point-min))
       (let ((entries '()))
         (while (re-search-forward "^@" nil t)
@@ -77,7 +77,7 @@ EXPORT-FILE: Destination file."
               (insert "\n")
               (write-region (point-min) (point-max) export-file)
               ;; Now count entries in newly written file
-              (let ((count (my/bibtex-count-entries-in-buffer)))
+              (let ((count (bibexport-bibtex-count-entries-in-buffer)))
                 (message "Exported %d entries to %s" count export-file)))
           (message "No entries found matching %S" phrase-list))))))
 
