@@ -164,6 +164,7 @@ The function works as advertised when installed with straight.
 |:-----------|:------------------------------------------------------------------------------------------------------------------------------------------|:--------------------|
 | Version 0.1 |   Added badges, funding, and update table.  Initial commit.                                                                                                                | 05/23/2025  |
 | Version 0.1.1 | Corrected a minor bug. Updated README.md.                                                                                                                            |05/24/2025 |
+| Version 0.1.2 | Added missing t after straight keyword in configuration for bibexport.                                                                                           |06/14/2025  |
 
 ## Sources of funding
 - NIH: R01 CA242845
