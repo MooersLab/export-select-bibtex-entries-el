@@ -73,7 +73,7 @@ You have to run `straight-pull-all` to pull any updates.
 
 ```elisp
 (use-package bibexport
-  :straight  
+  :straight t
   '(:type git  
     :repo "https://github.com/MooersLab/export-select-bibtex-entries-el.git"  
     :files ("bibexport.el")))
