@@ -1,4 +1,4 @@
-;;; bibexport.el --- A collection of functions to export a subset of BibTeX entries.
+;;; bibexport --- A collection of functions to export a subset of BibTeX entries with selected keywords.
 
 ;; Copyright (C) 2025 Blaine Mooers and the University of Oklahoma Health Sciences Center Board of Regents
 
