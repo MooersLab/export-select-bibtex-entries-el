@@ -8,7 +8,7 @@
 ;; Version: 0.1.1
 ;; Keywords: 
 ;; License: MIT
-;; Updated 2025 May 24
+;; Updated 2025 June 15
 
 ;;; This package is known to work (insofar as it's tested) with Emacs 30.1.
 
